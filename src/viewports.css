@@ -1,0 +1,198 @@
+@media(max-width:536px){
+    .homeFirstImg{
+      width: 230px;
+      top: -10%;
+      left: 20%;
+    } 
+    .homeDiv{
+        display: grid;
+    }
+    .grid2{
+        margin-top: -5%
+    }
+    .skillImg{
+        width: 150px
+    }
+    .serviceHead{
+        padding: 15px;
+        font-size: 3.1rem;
+    }
+    .servicesGrid{
+        display: grid;
+        padding: 20px;
+    }
+    .logo-text{
+        font-size: 25px;
+    }
+    .grid4{
+        padding: 12% 0px;
+        margin-left: -50px;
+      }
+    .contactForm{
+        width: 80%;
+        margin-left: 2%;
+      }
+      
+  }
+
+  @media(min-width: 536px) and (max-width:700px){
+    .homeFirstImg{
+      width: 230px;
+      top: 50%;
+      left: -20%
+    } 
+    .homeDiv{
+        display: grid;
+    }
+    .grid2{
+        margin-top: 35%
+    }
+    .skillsDiv{
+        margin-top: 30%
+    }
+    .servicesGrid{
+        display: grid;
+        padding: 20px;
+        
+    }
+  }
+
+@media(min-width: 700px) and (max-width:1040px){
+    .homeFirstImg{
+      width: 300px;
+      top: 0%;
+      left: 20%
+    } 
+    .homeDiv{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .grid2{
+        margin-top: 25%
+    }
+    .grid2 div{
+        margin-left: 60px;
+    }
+    .skillsDiv{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        direction: rtl;
+    }
+    .grid3{
+        text-align: left;
+    }
+    .skillHead{
+        padding: 0px;
+        text-align: left;
+        font-size: 4.2rem;
+    }
+    .serviceHead{
+        padding: 3px;
+        
+        font-size: 3.1rem;
+    }
+    .servicesDiv{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .servicesGrid{
+        display: grid;
+        padding: 50px;
+    }
+    .portInnerDiv{
+        grid-template-columns: 1fr 1fr;
+    }
+    .formDiv{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+  }
+
+  @media (min-width:1040px) and (max-width:1276px) {
+    .homeFirstImg{
+      width: 300px;
+      top: -10%;
+      left: 20%
+    } 
+    .homeDiv{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .grid2{
+        margin-top: 20%
+    }
+    .skillsDiv{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        direction: rtl;
+    }
+    .grid3{
+        text-align: left;
+        
+    }
+    .servicesDiv{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .servicesGrid{
+        display: grid;
+        padding: 20px;
+        grid-template-columns: 50% 50%; 
+        grid-gap: 10px;
+    }
+    .serviceHead{
+        padding: 15px;
+        font-size: 4rem;
+      }
+      .portInnerDiv{
+        grid-template-columns: 1fr 1fr ;
+    }
+  }
+  
+  @media(min-width:1276px){
+    .homeFirstImg{
+      width: 300px;
+      top: 40%;
+      left: -10%
+    } 
+    .homeFirstBg{
+      width: 50%;
+      position:relative;
+      top: 10%;
+      left: 10%
+    }
+    .homeDiv{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .grid2{
+        margin-top: 30%
+    }
+    .skillsDiv{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        direction: rtl;
+    }
+    .grid3{
+        text-align: left;
+        
+    }
+    .servicesDiv{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .servicesGrid{
+        display: grid;
+        padding: 20px;
+        grid-template-columns: 50% 50%; 
+        grid-gap: 10px;
+    }
+    .portInnerDiv{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .formDiv{
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+ 
