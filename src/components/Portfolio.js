@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
     root: {
@@ -68,9 +69,11 @@ function Portfolio() {
                                     </CardContent>
                                 </CardActionArea>
                                 <CardActions>
-                                    <Button size="small" color="secondary" variant="contained">
-                                    Learn More
-                                    </Button>
+                                    <Link to={`/portfolio/${item.id}`}>
+                                        <Button size="small" color="secondary" variant="contained">
+                                            Learn More
+                                        </Button>
+                                    </Link>
                                     <Button size="small" color="primary" variant="contained">
                                     <a href={item.link} target="_blank" rel="noreferrer" className="visitBtn">Visit Site</a>
                                     </Button>
