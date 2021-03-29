@@ -70,7 +70,7 @@ function Portfolio() {
                                 </CardActionArea>
                                 <CardActions>
                                     <Link to={`/portfolio/${item.id}`}>
-                                        <Button size="small" color="secondary" variant="contained">
+                                        <Button size="small" color="secondary" variant="contained" style={{textDecoration: 'none'}}>
                                             Learn More
                                         </Button>
                                     </Link>

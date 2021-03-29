@@ -16,7 +16,7 @@ function Details(props) {
 
     const filteredArray = [...portfolio].filter(item => item.id == postId)
 
-    const {id, name, cover, link, details} = filteredArray[0]
+    const { name, cover, link, details} = filteredArray[0]
     
     let nextId, prevId;
 
@@ -51,7 +51,7 @@ function Details(props) {
                             <h1 className="head"  style={{marginTop: 55}}>
                                 {name}
                             </h1>
-                            <img src={`/${cover}`} style={{maxWidth: '600px', width:'80%'}}/>
+                            <img alt="porfolio cover" src={`/${cover}`} style={{maxWidth: '600px', width:'80%'}}/>
                             <div style={{display: 'flex', justifyContent: 'center'}}>
                                 <p className="body" style={{width: '80%'}}>
                                     {details}
@@ -60,11 +60,11 @@ function Details(props) {
                             
                             
                             <Link to="/" style={{margin: 5}}>
-                                <Button variant="contained" size="large" style={{background: 'black', color: 'white'}}>GO HOME</Button>
+                                <Button variant="contained" size="large" style={{background: 'black', color: 'white', textDecoration: 'none'}}>GO HOME</Button>
                             </Link>
 
                             <Button style={{margin: 5}} variant="contained" size="large" color="secondary">
-                            <a href={link} style={{textDecoration: 'none', color: 'white'}} target="_blank">VISIT WEBSITE</a>
+                            <a rel="noreferrer" href={link} style={{textDecoration: 'none', color: 'white'}} target="_blank">VISIT WEBSITE</a>
                             </Button>
                             <hr style={{borderColor: '#ccc', margin:'20px 0px'}}/>
                             <div style={{display:'flex', justifyContent:'space-between', margin:'10px'}}>
