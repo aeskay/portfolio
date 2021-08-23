@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: space-around;
   z-index: 5;
-}
+} 
 
 .navMiniItem{
   list-style: none;
@@ -206,7 +206,8 @@
 .homeFirstImg{
   width: 230px;
   position:relative;
-  
+  border: 5px double rgb(211, 211, 211);
+  border-radius: 30px;
 }
 .grid2 div{
   text-align: center;
