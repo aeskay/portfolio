@@ -211,7 +211,7 @@
 }
 .grid2 div{
   text-align: center;
-  padding: 30px;
+  padding: 30px 10px 30px 40px;
   z-index: 3;
 }
 
@@ -246,6 +246,7 @@
   display: grid;
   border-top: 1px solid rgb(202, 202, 202);
   min-height: 100vh;
+  
 }
 
 .grid3{
@@ -263,7 +264,7 @@
 .skillHead{
   z-index: 2;
   color:white;
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 40px;
   font-family: 'Caprum', sans-serif;
   font-weight: 750;
@@ -628,5 +629,13 @@ position: relative;
 
 .learnBtn span{
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: #f50057;
+}
+
+.homeNewImg{
+  width: 400px;
+  max-width: 38vw;
+  position: relative;
+  top: 100px;
+  left: 20%;
 }

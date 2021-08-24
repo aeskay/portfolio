@@ -238,10 +238,10 @@ export const reviews = [
         id:3,
         image: "images/reviews/3.png"
     },
-    {
-        id:4,
-        image: "images/reviews/4.png"
-    },
+    // {
+    //     id:4,
+    //     image: "images/reviews/4.png"
+    // },
     
     {
         id:6,

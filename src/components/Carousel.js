@@ -9,7 +9,7 @@ function Carousel() {
                 {reviews.map(item => {
                     return (
                         <div key={item.id}>
-                            <img src={item.image} alt={item.img} />
+                            <img src={item.image} alt={item.img} className="sliderImg fader" />
                         </div>
                     )
                 })}

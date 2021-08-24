@@ -5,7 +5,7 @@ function Testimonials() {
     return (
         <div className="testimonials" id="testimonials">
             <div>
-                <h1 className="headText" style={{textAlign: "center", padding:"30px 10px"}}>MY CLIENTS' WORDS</h1>
+                <h1 className="headText topFader" style={{textAlign: "center", padding:"30px 10px"}}>MY CLIENTS' WORDS</h1>
                 <div>
                     <Carousel/>
                 </div>

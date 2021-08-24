@@ -3,12 +3,15 @@
       width: 230px;
       top: -10%;
       left: 20%;
+    }
+    .homeNewImg{
+        margin-left: 7%;
     } 
     .homeDiv{
         display: grid;
     }
     .grid2{
-        margin-top: -5%
+        margin-top: 15%
     }
     .skillImg{
         width: 100px
@@ -25,14 +28,16 @@
         font-size: 25px;
     }
     .grid4{
-        padding: 12% 0px;
-        margin-left: -50px;
+        padding: 12% 5%;
+        margin-left: -40px;
       }
     .contactForm{
         width: 80%;
         margin-left: 2%;
       }
-      
+    .sliderImg{
+        width: 100%;
+    }
   }
 
   @media(min-width: 536px) and (max-width:700px){
@@ -45,15 +50,19 @@
         display: grid;
     }
     .grid2{
-        margin-top: 35%
+        margin-top: 20%
     }
     .skillsDiv{
-        margin-top: 30%
+        margin-top: 30%;
+        
     }
     .servicesGrid{
         display: grid;
         padding: 20px;
         
+    }
+    .sliderImg{
+        width: 100%;
     }
   }
 
@@ -84,7 +93,7 @@
     .skillHead{
         padding: 0px;
         text-align: left;
-        font-size: 4.2rem;
+        font-size: 4rem;
     }
     .serviceHead{
         padding: 3px;
@@ -104,6 +113,9 @@
     }
     .formDiv{
         grid-template-columns: 1fr 1fr;
+    }
+    .sliderImg{
+        width: 80%;
     }
     
   }
@@ -146,6 +158,9 @@
       }
       .portInnerDiv{
         grid-template-columns: 1fr 1fr ;
+    }
+    .sliderImg{
+        width: 80%;
     }
   }
   

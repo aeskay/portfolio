@@ -41,8 +41,8 @@ export class Contact extends Component {
         return (
             <div className="contact" id="contact">
                 <div>
-                <h1 className="headText" style={{textAlign: "center", padding:"30px 10px", color: "white"}}>CONTACT ME</h1>
-                <div className="formDiv">
+                <h1 className="headText topFader" style={{textAlign: "center", padding:"30px 10px", color: "white"}}>CONTACT ME</h1>
+                <div className="formDiv leftFader">
                     <form onSubmit={this.handleSubmit} className="contactForm">
                         <div className="input-icons">
                             
@@ -61,13 +61,14 @@ export class Contact extends Component {
                             <button type="submit" className="formBtn">Send Message</button>
                         </div>
                     </form>
-                    <div className="otherContact">
+                    <div className="otherContact rightFader">
                     <p style={{textAlign: "center", color:"#eee"}} className="body">You can also reach me on several social media platforms. Select your best platform, and I'm right there!</p>
                         <div style={{textAlign: "center"}} >
-                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://wa.me/+2348133355944"><i className="fab fa-whatsapp"></i></a>
-                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://facebook.com/alalade.samuelsambluez"><i className="fab fa-facebook "></i></a>
-                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://twitter.com/iamaeskay"><i className="fab fa-twitter "></i></a>
-                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://instagram.com/aeskay"><i className="fab fa-instagram "></i></a>
+                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://github.com/aeskay"><i className="fab fa-github "></i></a>
+                        <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://facebook.com/alalade.samuelsambluez"><i className="fab fa-codepen "></i></a>
+                        <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://linkedin.com/alalade-samuel"><i className="fab fa-linkedin "></i></a>
+                        <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://twitter.com/iamaeskay"><i className="fab fa-twitter "></i></a>
+                        <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://wa.me/+2348133355944"><i className="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
