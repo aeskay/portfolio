@@ -55,22 +55,22 @@ function Portfolio() {
                                     <CardMedia
                                     component="img"
                                     alt={item.name}
-                                    
+                                    className="fader"
                                     image={item.cover}
                                     title={item.name}
                                     />
                                     <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2">
+                                    <Typography gutterBottom variant="h5" component="h2" className="topFader">
                                         {item.name}
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p">
+                                    <Typography variant="body2" color="textSecondary" component="p" className="fader">
                                         {item.details.substr(0,120) + "..."} 
                                     </Typography>
                                     </CardContent>
                                 </CardActionArea>
-                                <CardActions>
+                                <CardActions className="bottomFader">
                                     <Link to={`/portfolio/${item.id}`}>
-                                        <Button size="small" color="secondary" variant="contained" style={{textDecoration: 'none'}}>
+                                        <Button size="small" color="secondary" variant="contained" style={{textDecoration: 'none'}} className="learnBtn">
                                             Learn More
                                         </Button>
                                     </Link>

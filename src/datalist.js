@@ -242,10 +242,7 @@ export const reviews = [
         id:4,
         image: "images/reviews/4.png"
     },
-    {
-        id:5,
-        image: "images/reviews/5.png"
-    },
+    
     {
         id:6,
         image: "images/reviews/6.png"

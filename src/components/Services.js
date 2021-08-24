@@ -7,7 +7,7 @@ function Services() {
            <div className="servicesDiv" id="services">  
                 <div className="grid5" style={{backgroundImage: "url('/images/service-bg.png')", backgroundSize: "cover"}}>
                     <div>
-                        <h1 className="serviceHead">MY <br/>SERVICES</h1>
+                        <h1 className="serviceHead leftFader">MY <br/>SERVICES</h1>
                     </div>
                 </div>   
                 <div className="grid6">
@@ -16,9 +16,9 @@ function Services() {
                             {services.map(service => {
                                 return (
                                     <div key={service.alt}>
-                                        <img alt={service.alt} src={service.image} className="serviceImg"/>
-                                        <p className="subtitle">{service.subtitle}</p>
-                                        <p className="body">{service.body}</p><br/><br/>
+                                        <img alt={service.alt} src={service.image} className="serviceImg topFader"/>
+                                        <p className="subtitle fader">{service.subtitle}</p>
+                                        <p className="body bottomFader">{service.body}</p><br/><br/>
                                     </div >
                                 )
                             })}
