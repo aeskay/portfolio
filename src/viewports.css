@@ -5,13 +5,16 @@
       left: 20%;
     }
     .homeNewImg{
-        margin-left: 7%;
+        margin-left: -10%;
+        max-width: 60vw;
+        margin-bottom: 10%;
     } 
     .homeDiv{
         display: grid;
     }
     .grid2{
-        margin-top: 15%
+        margin-top: 15%;
+        margin-left: -35px;
     }
     .skillImg{
         width: 100px
@@ -64,6 +67,11 @@
     .sliderImg{
         width: 100%;
     }
+    .homeNewImg{
+        /* margin-left: -5%; */
+        /* max-width: 60vw; */
+        margin-bottom: 0;
+    } 
   }
 
 @media(min-width: 700px) and (max-width:1040px){

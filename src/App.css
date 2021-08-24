@@ -73,9 +73,6 @@
   margin-left: 60px;
 }
 
-.grid1{
-  
-}
 
 .grid2{
   display: flex;
@@ -634,7 +631,7 @@ position: relative;
 
 .homeNewImg{
   width: 400px;
-  max-width: 38vw;
+  max-width: 40vw;
   position: relative;
   top: 100px;
   left: 20%;
