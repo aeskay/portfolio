@@ -27,14 +27,15 @@ export class Contact extends Component {
 
     handleSubmit = (e) => {
         const {name, email, message} = this.state;
-        console.log(name, email, message)
+        
         this.setState({
             email:'',
             message:'',
             name:''
         });
         e.preventDefault();
-        window.open(`https://wa.me/+2348133355944?text=Hello Samuel, my name is ${this.state.name}. ${message}. My email is ${email}. Thanks`, '_blank')
+        // window.open(`https://wa.me/+2348133355944?text=Hello Samuel, my name is ${this.state.name}. ${message}. My email is ${email}. Thanks`, '_blank')
+        window.open(`mailto:marketgeek01@gmail.com?Subject=New Contact from Portfolio&body=Hello Samuel, my name is ${this.state.name}. ${message}. My email is ${email}. Thanks`, '_blank')
     }
 
     render() {
@@ -64,11 +65,12 @@ export class Contact extends Component {
                     <div className="otherContact rightFader">
                     <p style={{textAlign: "center", color:"#eee"}} className="body">You can also reach me on several social media platforms. Select your best platform, and I'm right there!</p>
                         <div style={{textAlign: "center"}} >
-                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://github.com/aeskay"><i className="fab fa-github "></i></a>
-                        <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://facebook.com/alalade.samuelsambluez"><i className="fab fa-codepen "></i></a>
-                        <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://linkedin.com/alalade-samuel"><i className="fab fa-linkedin "></i></a>
-                        <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://twitter.com/iamaeskay"><i className="fab fa-twitter "></i></a>
-                        <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://wa.me/+2348133355944"><i className="fab fa-whatsapp"></i></a>
+                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="mailto:marketgeek01@gmail.com" title="Email"><i className="fa fa-envelope"></i></a>
+                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://github.com/aeskay" title="Github"><i className="fab fa-github "></i></a>
+                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://facebook.com/alalade.samuelsambluez" title="CodePen"><i className="fab fa-codepen "></i></a>
+                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://linkedin.com/alalade-samuel" title="LinkedIn"><i className="fab fa-linkedin "></i></a>
+                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://twitter.com/iamaeskay" title="Twitter"><i className="fab fa-twitter "></i></a>
+                            <a target="_blank" rel="noreferrer" className="contSocIcon" href="https://wa.me/+2348133355944" title="WhatsApp"><i className="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>

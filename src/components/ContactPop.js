@@ -12,10 +12,11 @@ function ContactPop() {
                     <h1 style={{textAlign: "center", fontFamily: "Rajdhani"}}>CONTACT ME</h1>
                     <p style={{textAlign: "center"}} className="body">Select your best platform, and I'm right there!</p>
                     <div style={{textAlign: "center"}} >
-                    <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://wa.me/+2348133355944"><i className="fab fa-whatsapp"></i></a>
-                        <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://facebook.com/alalade.samuelsambluez"><i className="fab fa-facebook "></i></a>
-                        <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://twitter.com/iamaeskay"><i className="fab fa-twitter "></i></a>
-                        <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://instagram.com/aeskay"><i className="fab fa-instagram "></i></a>
+                        <a target="_blank" rel="noreferrer" className="homeSocIcon" href="mailto:marketgeek01@gmail.com" title="Email"><i className="fa fa-envelope"></i></a>
+                        <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://wa.me/+2348133355944" title="WhatsApp"><i className="fab fa-whatsapp"></i></a>
+                        <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://facebook.com/alalade.samuelsambluez" title="Facebook"><i className="fab fa-facebook "></i></a>
+                        <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://twitter.com/iamaeskay" title="Twitter"><i className="fab fa-twitter "></i></a>
+                        <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://linkedin.com/alalade-samuel" title="LinkedIn"><i className="fab fa-linkedin "></i></a>
                     </div>
                     <div style={{textAlign: "center", outline: "none", marginTop: "20px"}} ><button onClick={handlePopClose} className="popCloseIcon">CLOSE</button></div>
                 </div>
