@@ -60,7 +60,7 @@ function Portfolio() {
                                     title={item.name}
                                     />
                                     <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2" className="topFader">
+                                    <Typography gutterBottom variant="h5" component="h2" className="">
                                         {item.name}
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p" className="fader">

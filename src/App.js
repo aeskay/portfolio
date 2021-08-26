@@ -9,7 +9,7 @@ import ErrorPage from './components/ErrorPage';
 import Details from './components/Details';
 
 function App() {
-
+  
   return (
     <BrowserRouter>
       <Switch>
@@ -19,6 +19,7 @@ function App() {
       </Switch>
     </BrowserRouter>
   );
+  
 }
 
 export default App;

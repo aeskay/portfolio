@@ -58,14 +58,14 @@ export const services = [
     {
         image:"/images/service3.png",
         alt:"website dev",
-        body:"I am a specialist in the development of several types of website in any industry front end from start to finish.",
+        body:"I am a specialist in the development of several types of website in any industry front end from start to finish. Check out my skills above!",
         subtitle:"Website Development"
     },
     {
         image:"/images/service1.png",
         alt:"theme building",
-        body:"I am experienced in working with many themes, plugins, and develop awesome, responsive sites for businesses on wordpress. ",
-        subtitle:"Wordpress Development"
+        body:"I am experienced in working with many CMS platforms like WordPress, Shopify, Wix, Webflow, and SquareSpace; develop awesome, responsive sites. ",
+        subtitle:"CMS Development"
     },
     {
         image:"/images/service4.png",
