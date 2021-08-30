@@ -41,6 +41,9 @@
     .sliderImg{
         width: 100%;
     }
+    .skillsGrid{
+        margin-left: 15px;
+    }
   }
 
   @media(min-width: 536px) and (max-width:700px){
