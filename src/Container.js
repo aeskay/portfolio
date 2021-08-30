@@ -30,7 +30,7 @@ function Container() {
       <div className="otherSection">
         <div className="firstSection">
           <div className="centralize logo-text">
-            <span className="span1">SAMUEL</span> <span className="span2">ALALADE</span>
+            <span className="span1 samuel">SAMUEL</span> <span className="span2 alalade">ALALADE</span>
             <button onClick={handlePopOpen} className="contactBtn">Contact Me</button>
           </div>
           <Home/>
@@ -49,6 +49,9 @@ function Container() {
         </div>
         <div>
           <Contact/>
+        </div>
+        <div className="darkMode">
+          <img src="/images/nightday.png" alt="Dark/Light Mode" width="50px"/>
         </div>
         <div className="footerBtn">
             Copyright &copy;2021 SKA Technologies

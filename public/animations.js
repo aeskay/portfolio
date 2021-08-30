@@ -104,4 +104,4 @@ setTimeout(() => {
       
       observer.observe(element);
   }
-}, 0);
+}, 1000);

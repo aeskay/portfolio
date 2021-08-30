@@ -5,7 +5,7 @@ function Home() {
     return (
         <>
            <div className="homeDiv" id="home">
-            <div className="grid1 leftFader">
+            <div className="grid1 fader">
               {/* <img alt="background" src="/images/bg.png" className="homeFirstBg"/>
               <img alt="Sammy" src="/images/sam.png" className="homeFirstImg"/> */}
               <div>              
