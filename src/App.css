@@ -266,7 +266,7 @@
   padding: 40px;
   font-family: 'Caprum', sans-serif;
   font-weight: 750;
-  margin-top: 30%
+  margin-top: 30%;
 }
 
 .grid4{
@@ -671,4 +671,8 @@ position: relative;
 .greyText{
   color: #aaa;
   transition: color .2s linear;
+}
+
+.grid5 .blackBg, .grid3 .blackBg {
+  background: transparent !important;
 }
