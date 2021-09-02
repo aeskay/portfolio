@@ -11,6 +11,7 @@ import ContactPop from './components/ContactPop';
 import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
+import Screen from './components/Screen';
 
 function Container() {
 
@@ -55,6 +56,9 @@ function Container() {
         </div>
         <div className="footerBtn">
             Copyright &copy;2021 SKA Technologies
+        </div>
+        <div>
+          <Screen/>
         </div>
       </div>
       

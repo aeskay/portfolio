@@ -654,7 +654,7 @@ position: relative;
 .blackBg{
   background:rgb(37, 45, 59);
   color: #eee;
-  transition: background 1s ease-in, color .2s linear;
+  /* transition:  1s ease-in, color .2s linear; */
 }
 
 .whiteText{
@@ -675,4 +675,111 @@ position: relative;
 
 .grid5 .blackBg, .grid3 .blackBg {
   background: transparent !important;
+}
+
+
+.dark-1{
+  position: fixed; /* Sit on top of the page content */
+  /* display: none; */
+  width: 60vw; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(37, 45, 59); /* Black background with opacity */
+  z-index: 40; /* Specify a stack order in case you're using a different order for other elements */
+  animation: dark-screen-1 3s ease-in-out forwards;
+}
+
+@keyframes dark-screen-1 {
+  0%{
+    display: block;
+    left: -60vw;
+  }
+  50%{
+    left: 0;
+  }
+  100%{
+    display: none;
+    left: -60vw;
+  }
+}
+.dark-2{
+  position: fixed; /* Sit on top of the page content */
+  /* display: none; */
+  width: 60vw; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(37, 45, 59); /* Black background with opacity */
+  z-index: 40; /* Specify a stack order in case you're using a different order for other elements */
+  animation: dark-screen-2 3s ease-in-out forwards;
+}
+
+@keyframes dark-screen-2 {
+  0%{
+    display: block;
+    right: -60vw;
+  }
+  50%{
+    right: 0;
+  }
+  100%{
+    display: none;
+    right: -60vw;
+  }
+}
+
+.white-1{
+  position: fixed; /* Sit on top of the page content */
+  /* display: none; */
+  width: 60vw; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(238,238,238); /* Black background with opacity */
+  z-index: 40; /* Specify a stack order in case you're using a different order for other elements */
+  animation: white-screen-1 3s ease-in-out forwards;
+}
+
+@keyframes white-screen-1 {
+  0%{
+    display: block;
+    left: -60vw;
+  }
+  50%{
+    left: 0;
+  }
+  100%{
+    display: none;
+    left: -60vw;
+  }
+}
+.white-2{
+  position: fixed; /* Sit on top of the page content */
+  /* display: none; */
+  width: 60vw; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(238,238,238); /* Black background with opacity */
+  z-index: 40; /* Specify a stack order in case you're using a different order for other elements */
+  animation: white-screen-2 3s ease-in-out forwards;
+}
+
+@keyframes white-screen-2 {
+  0%{
+    display: block;
+    right: -60vw;
+  }
+  50%{
+    right: 0;
+  }
+  100%{
+    display: none;
+    right: -60vw;
+  }
 }

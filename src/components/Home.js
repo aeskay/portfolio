@@ -14,9 +14,17 @@ function Home() {
             </div>
             <div className="grid2">
                 <div>
-                    <h1 className="headText topFader">ABOUT ME</h1>
-                    <p className="subtitle fader">My name is Samuel Alalade, and I am a front-end developer</p>
-                    <p className="body bottomFader">I am a skilled developer who can be relied upon to build responsive and modern websites, deliver them on schedule and to a very high standard. I am enthusiastic and passionate Web Developer who can bring new thinking from one sector to the next. With over 3 years of experience, I can build new websites or update existing ones. I have worked on over 50 websites</p>
+                    {/* <h1 className="headText topFader">ABOUT ME</h1> */}
+                    {/* <h1> </h1>
+                    <h1 className=" headText fader line-1 anim-typewriter">I am Samuel Alalade</h1> */}
+                    
+                    <h1 className=" headText">I am 
+  <span
+     className="txt-rotate"
+     data-period="2000"
+     data-rotate='[ " a Developer", " a Designer", " a Creator", " an Expert" ]'></span>
+</h1>
+                    <p className="body bottomFader">My name is Samuel - a skilled Developer who can be relied upon to build responsive and modern websites, deliver them on schedule and to a very high standard. I am enthusiastic and passionate Web Developer who can bring new thinking from one sector to the next. With over 3 years of experience, I can build new websites or update existing ones. I have worked on over 50 websites</p>
                     <span className="bottomFader">
                         <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://github.com/aeskay" title="Github"><i className="fab fa-github "></i></a>
                         <a target="_blank" rel="noreferrer" className="homeSocIcon" href="https://facebook.com/alalade.samuelsambluez" title="Facebook"><i className="fab fa-codepen "></i></a>
