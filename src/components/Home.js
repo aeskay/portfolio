@@ -9,7 +9,7 @@ function Home() {
               {/* <img alt="background" src="/images/bg.png" className="homeFirstBg"/>
               <img alt="Sammy" src="/images/sam.png" className="homeFirstImg"/> */}
               <div>              
-                  <img alt="Sammy" src="/images/sam-2.png" className="homeNewImg" style={{opacity: "0.2"}}/>
+                  <img alt="Sammy" src="/images/john.png" className="homeNewImg" style={{opacity: "1"}}/>
             </div>
             </div>
             <div className="grid2">
