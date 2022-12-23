@@ -48,7 +48,7 @@ function Navigation() {
             </div>
             <div className="fixedMajorSide hidden" onMouseLeave={hideSideBar}>
                 <div className="logoDiv">    
-                    <span className="logo-text-mini"><span className="logo-text-mini-span1">SAMUEL</span> <span className="logo-text-mini-span2">A.</span></span>
+                    <span className="logo-text-mini"><span className="logo-text-mini-span1">John</span> <span className="logo-text-mini-span2">A.</span></span>
                     <span onClick={hideSideBar} className="closeIcon">X</span>
                 </div>
                 <div className="fixedMiniNav">
