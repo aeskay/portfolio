@@ -22,7 +22,7 @@ function ErrorPage() {
             <div className="otherSection">
                 <div className="firstSection">
                     <div className="centralize logo-text">
-                        <span className="span1">John</span> <span className="span2">ALALADE</span>
+                        <span className="span1">Samuel</span> <span className="span2">ALALADE</span>
                         <button onClick={handlePopOpen} className="contactBtn">Contact Me</button>
                     </div>
                     <div className="" style={{height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>

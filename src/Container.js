@@ -31,7 +31,7 @@ function Container() {
       <div className="otherSection">
         <div className="firstSection">
           <div className="centralize logo-text">
-            <span className="span1 samuel">JOHN</span> <span className="span2 alalade">ALALADE</span>
+            <span className="span1 samuel">Samuel</span> <span className="span2 alalade">ALALADE</span>
             <button onClick={handlePopOpen} className="contactBtn">Contact Me</button>
           </div>
           <Home/>
